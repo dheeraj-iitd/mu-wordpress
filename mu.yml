@@ -17,7 +17,7 @@ environments:
 
 - name: prod
   cluster:
-    keyName: mu-wordpress
+    # keyName: mu-wordpress
     instanceType: t2.small
 
 ## See https://github.com/stelligent/mu/wiki/Services
