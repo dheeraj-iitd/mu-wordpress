@@ -50,7 +50,7 @@ service:
   ### See https://github.com/stelligent/mu/wiki/Databases
   database:
     #### Name of database to create on RDS instance
-    name: muwp
+    name: muwps
 
     #### RDS engine to use
     #### (default: aurora)
