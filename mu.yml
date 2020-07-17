@@ -22,7 +22,7 @@ environments:
 
 ## See https://github.com/stelligent/mu/wiki/Services
 service:
-  name: mu-wordpress
+  name: mu-wordpress-serverless
 
   ### The desired number of tasks to run for the service
   ### (default: 2)
