@@ -55,6 +55,7 @@ service:
     #### RDS engine to use
     #### (default: aurora)
     #engine: mysql
+    engineMode: serverless
 
     #### Instance class
     #### (default: db.t2.small)
