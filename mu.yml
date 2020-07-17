@@ -22,7 +22,7 @@ environments:
 
 ## See https://github.com/stelligent/mu/wiki/Services
 service:
-  name: mu-wordpress-serverless
+  name: mu-wordpress
 
   ### The desired number of tasks to run for the service
   ### (default: 2)
@@ -50,7 +50,7 @@ service:
   ### See https://github.com/stelligent/mu/wiki/Databases
   database:
     #### Name of database to create on RDS instance
-    name: muwps
+    name: muwp
 
     #### RDS engine to use
     #### (default: aurora)
