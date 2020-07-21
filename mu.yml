@@ -13,7 +13,7 @@ environments:
 
     #### The instance type to use for the ECS container instances
     #### (default: t2.micro)
-    instanceType: t2.micro
+    instanceType: t2.small
 
 - name: prod
   cluster:
