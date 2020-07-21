@@ -39,6 +39,7 @@ service:
   ### (default: 8080)
   ### - The WordPress web service runs on port 80
   port: 80
+  networkMode: awsvpc                # The networking mode for the task: none, bridge, host, or awsvpc (default: bridge)
 
   ### The paths to match on in the ALB and route to this service
   ### (default: None)
