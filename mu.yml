@@ -4,6 +4,8 @@
 ## See https://github.com/stelligent/mu/wiki/Environments
 environments:
 - name: test
+  provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
+
   ### Attributes for the ECS container instances
   cluster:
     #### Name of EC2 keypair to associate with ECS container instances.
@@ -16,6 +18,8 @@ environments:
     instanceType: t2.small
 
 - name: prod
+  provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
+
   cluster:
     # keyName: mu-wordpress
     instanceType: t2.small
