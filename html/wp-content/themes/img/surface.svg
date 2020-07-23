@@ -1,0 +1,12 @@
+<svg id="texture" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_7741" data-name="Group 7741">
+    <g id="Group_7740" data-name="Group 7740">
+      <path id="Path_6368" data-name="Path 6368" d="M17.267,0,0,17.267v5.5L22.769,0Z" fill="#7c7c7c"/>
+      <path id="Path_6369" data-name="Path 6369" d="M3.889,0A3.9,3.9,0,0,0,0,3.889v3.9L7.788,0Z" fill="#7c7c7c"/>
+      <path id="Path_6370" data-name="Path 6370" d="M352.213,1.6Z" transform="translate(-320.11 -1.454)" fill="#7c7c7c"/>
+      <path id="Path_6371" data-name="Path 6371" d="M134.187,156.956h5.5l17.267-17.267v-5.5Z" transform="translate(-121.956 -121.956)" fill="#7c7c7c"/>
+      <path id="Path_6372" data-name="Path 6372" d="M33.557,1.6,1.6,33.557a3.833,3.833,0,0,0,.992,1.75l.01.01a3.833,3.833,0,0,0,1.75.992L36.308,4.351A3.9,3.9,0,0,0,33.557,1.6Z" transform="translate(-1.454 -1.454)" fill="#7c7c7c"/>
+      <path id="Path_6373" data-name="Path 6373" d="M302.459,306.348a3.9,3.9,0,0,0,3.889-3.889v-3.9l-7.788,7.788Z" transform="translate(-271.348 -271.348)" fill="#7c7c7c"/>
+    </g>
+  </g>
+</svg>
