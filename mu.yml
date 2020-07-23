@@ -3,7 +3,7 @@
 
 ## See https://github.com/stelligent/mu/wiki/Environments
 environments:
-- name: test-new
+- name: test1
   provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
 
   ### Attributes for the ECS container instances
@@ -17,7 +17,7 @@ environments:
     #### (default: t2.micro)
     instanceType: t2.small
 
-- name: prod-new
+- name: prod1
   provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
 
   cluster:
@@ -26,7 +26,7 @@ environments:
 
 ## See https://github.com/stelligent/mu/wiki/Services
 service:
-  name: mu-wordpress-serverless
+  name: mu-wordpress1
 
   ### The desired number of tasks to run for the service
   ### (default: 2)
@@ -76,8 +76,8 @@ service:
     #### Define this for each environment if you want WP_DEBUG=true
     #### in wp-config.php
     WORDPRESS_DEBUG:
-      test_new: 'true'
-      prod_new: 
+      test1: 'true'
+      prod1: 
 
   ### See https://github.com/stelligent/mu/wiki/Pipelines
   pipeline:
@@ -93,8 +93,8 @@ service:
     acceptance:
       #### The environment name to deploy to for testing
       #### (default: dev)
-      environment: test-new
+      environment: test1
     production:
       #### The environment name to deploy to for production
       #### (default: production)
-      environment: prod-new
+      environment: prod1
