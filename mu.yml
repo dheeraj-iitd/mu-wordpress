@@ -76,7 +76,7 @@ service:
     #### Define this for each environment if you want WP_DEBUG=true
     #### in wp-config.php
     WORDPRESS_DEBUG:
-      test2: 'true'
+      test2: 'false'
       prod2: 
 
   ### See https://github.com/stelligent/mu/wiki/Pipelines
