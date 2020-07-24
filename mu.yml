@@ -61,6 +61,7 @@ service:
     #### (default: aurora)
     #engine: mysql
     engineMode: serverless
+    masterPassword: 11#FarGate_Des!gn_AppyP!e#11
 
     #### Instance class
     #### (default: db.t2.small)
@@ -97,4 +98,4 @@ service:
     production:
       #### The environment name to deploy to for production
       #### (default: production)
-      environment: prod1
+      environment: prod1  
