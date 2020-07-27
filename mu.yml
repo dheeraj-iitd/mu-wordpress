@@ -72,6 +72,7 @@ service:
     WORDPRESS_DB_PASSWORD: ${DatabaseMasterPassword}
     WORDPRESS_DB_HOST: ${DatabaseEndpointAddress}:${DatabaseEndpointPort}
     WORDPRESS_DB_NAME: ${DatabaseName}
+    WORDPRESS_TABLE_PREFIX: 'ap_'
 
     #### Define this for each environment if you want WP_DEBUG=true
     #### in wp-config.php
