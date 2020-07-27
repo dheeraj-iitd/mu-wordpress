@@ -3,7 +3,7 @@
 
 ## See https://github.com/stelligent/mu/wiki/Environments
 environments:
-- name: test2
+- name: test0
   provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
 
   ### Attributes for the ECS container instances
@@ -17,7 +17,7 @@ environments:
     #### (default: t2.micro)
     instanceType: t2.small
 
-- name: prod2
+- name: prod0
   provider: ecs-fargate                   # The type of environment to use, ec2, eks, ecs, or ecs-fargate (default: ecs)
 
   cluster:
@@ -26,7 +26,7 @@ environments:
 
 ## See https://github.com/stelligent/mu/wiki/Services
 service:
-  name: mu-wordpress2
+  name: mu-wordpress0
 
   ### The desired number of tasks to run for the service
   ### (default: 2)
@@ -55,7 +55,7 @@ service:
   ### See https://github.com/stelligent/mu/wiki/Databases
   database:
     #### Name of database to create on RDS instance
-    name: muwp
+    name: muwp0
 
     #### RDS engine to use
     #### (default: aurora)
@@ -76,8 +76,8 @@ service:
     #### Define this for each environment if you want WP_DEBUG=true
     #### in wp-config.php
     WORDPRESS_DEBUG:
-      test2: 'false'
-      prod2: 
+      test0: 'true'
+      prod0: 
 
   ### See https://github.com/stelligent/mu/wiki/Pipelines
   pipeline:
@@ -93,8 +93,8 @@ service:
     acceptance:
       #### The environment name to deploy to for testing
       #### (default: dev)
-      environment: test2
+      environment: test0
     production:
       #### The environment name to deploy to for production
       #### (default: production)
-      environment: prod2  
+      environment: prod0  
